@@ -6,3 +6,6 @@ console.log(decoder.decode(data));
 
 
 // writing files
+const text = 'hello again, richard';
+
+await Deno.writeFile('readme.txt', text);
